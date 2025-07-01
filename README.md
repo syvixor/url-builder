@@ -4,7 +4,7 @@ A user-friendly tool to quickly generate URLs for various skills icons.
 
 ### ✨ Technologies
 
-![](https://skills.syvixor.com/api/icons?i=ts,nuxt,vueuse,tailwind)
+![](https://skills.syvixor.com/api/icons?i=ts,nuxt,vueuse,motion,tailwind)
 
 ### 📋 Prerequisites
 
