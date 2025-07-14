@@ -9,7 +9,7 @@ const searchTerm = ref("");
 const visibleCount = ref(120);
 const isLoading = ref(false);
 
-const { data } = await useFetch<{ id: string; name: string; url: string; }[]>("/api/icons");
+const { data } = await useFetch("/api/icons");
 
 const filteredIcons = computed(() => {
     return data.value?.filter((icon) => {
