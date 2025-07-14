@@ -87,11 +87,8 @@ watch(searchTerm, () => {
                             selectedIcons.includes(icon.id) &&
                             'ring-2 ring-primary/50 dark:ring-primary/50 bg-primary/20 dark:bg-primary/20 p-1'
                         ]">
-                            <img :src="icon.url" :alt="icon.name" loading="lazy" />
+                            <img :src="icon.url" :alt="icon.name" :title="icon.name" loading="lazy" />
                         </div>
-                        <UBadge class="absolute bottom-full left-1/2 transform -translate-x-1/2 opacity-0 
-                    transition-all group-hover:opacity-100" :label="icon.name" color="neutral" variant="outline"
-                            size="lg" />
                     </div>
                 </div>
             </div>
