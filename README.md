@@ -12,7 +12,7 @@ A user-friendly tool to quickly generate URLs for various skills icons.
   ```bash
   git clone https://github.com/syvixor/url-builder.git
 
-  cd nuxt-ui-starter
+  cd url-builder
   ```
 
 - Next, You have to install the dependencies
