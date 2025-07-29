@@ -4,3 +4,11 @@
 @theme {
     --font-sans: "Outfit", sans-serif;
 }
+
+:root {
+  --ui-primary: #1F1F1F;
+}
+
+.dark {
+  --ui-primary: #EEEEEE;
+}

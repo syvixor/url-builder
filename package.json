@@ -7,27 +7,22 @@
         "dev": "nuxt dev",
         "generate": "nuxt generate",
         "preview": "nuxt preview",
-        "postinstall": "nuxt prepare"
+        "postinstall": "nuxt prepare",
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix"
     },
     "dependencies": {
+        "eslint": "^9.32.0",
         "motion-v": "^1.6.1",
-        "nuxt": "^4.0.2"
+        "nuxt": "^4.0.2",
+        "scule": "^1.3.0"
     },
     "devDependencies": {
         "@iconify-json/lucide": "^1.2.58",
+        "@nuxt/eslint": "^1.7.1",
         "@nuxt/ui": "^3.3.0",
         "@vueuse/core": "^13.6.0",
         "@vueuse/nuxt": "^13.6.0"
-    },
-    "overrides": {
-        "tailwindcss": "4.1.5",
-        "@tailwindcss/postcss": "4.1.5",
-        "@tailwindcss/vite": "4.1.5"
-    },
-    "resolutions": {
-        "tailwindcss": "4.1.5",
-        "@tailwindcss/postcss": "4.1.5",
-        "@tailwindcss/vite": "4.1.5"
     },
     "author": "syvixor",
     "license": "MIT"

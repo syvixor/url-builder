@@ -1,10 +1,10 @@
-## 🏗️ URL Builder
+## 🔗 URL Builder
 
-A user-friendly tool to quickly generate URLs for various skills icons.
+✅ The official URL builder for [skills icons](https://github.com/syvixor/skills-icons).
 
 ### ✨ Technologies
 
-![Technologies](https://skills.syvixor.com/api/icons?i=ts,nuxt,vueuse,motion,tailwind)
+![Technologies](https://skills.syvixor.com/api/icons?i=ts,nuxt,eslint,vueuse,motion,tailwind)
 
 ### 🚀 Quick Start
 
@@ -15,12 +15,12 @@ A user-friendly tool to quickly generate URLs for various skills icons.
   cd url-builder
   ```
 
-- Next, You have to install the dependencies
+- Next, install the dependencies
   ```bash
   pnpm install # or npm install
   ```
 
-- Finally, run development server
+- Finally, run the development server
 
   ```bash
   pnpm dev # or npm run dev
