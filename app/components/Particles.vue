@@ -52,25 +52,19 @@ const starLayers = computed(() => [
     { stars: stars.value.fast, ...speedMap.fast },
     { stars: stars.value.normal, ...speedMap.normal },
     { stars: stars.value.slow, ...speedMap.slow }
-])
+]);
 </script>
 
 <template>
-    <motion.div :initial="{ opacity: 0 }" :animate="{ opacity: 1 }" class="fixed w-full h-screen overflow-hidden">
+    <motion.div :initial="{ opacity: 0 }" :animate="{ opacity: 1 }" :transition="{ delay: 0.2, duration: 0.5 }"
+        class="fixed w-full h-screen overflow-hidden">
         <div class="stars size-full absolute inset-x-0 top-0">
-            <div
-v-for="(layer, index) in starLayers"
-:key="index"
-class="star-layer"
-:style="{
+            <div v-for="(layer, index) in starLayers" :key="index" class="star-layer" :style="{
                 '--star-duration': `${layer.duration}s`,
                 '--star-opacity': layer.opacity,
                 '--star-color': color
             }">
-                <div
-v-for="(star, starIndex) in layer.stars"
-:key="starIndex"
-class="star absolute rounded-full"
+                <div v-for="(star, starIndex) in layer.stars" :key="starIndex" class="star absolute rounded-full"
                     :style="{
                         left: `${star.x}px`,
                         top: `${star.y}px`,

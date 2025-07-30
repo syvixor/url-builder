@@ -11,16 +11,8 @@ const onThemeSwitch = () => {
 
 <template>
     <ClientOnly v-if="!isLoading">
-        <UButton
-:icon="colorMode.preference === 'dark' ? 'i-lucide-moon' : 'i-lucide-sun'"
-            :label="colorMode.preference === 'dark' ? 'Dark' : 'Light'"
-variant="soft"
-@click="onThemeSwitch" />
+        <UButton :icon="colorMode.preference === 'dark' ? 'i-lucide-moon' : 'i-lucide-sun'"
+            :label="colorMode.preference === 'dark' ? 'Dark' : 'Light'" variant="soft" @click="onThemeSwitch" />
     </ClientOnly>
-    <UButton
-v-else
-aria-label="Loading"
-label="Loading"
-variant="ghost"
-loading />
+    <UButton v-else aria-label="Loading" label="Loading" variant="ghost" loading />
 </template>
