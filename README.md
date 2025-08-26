@@ -1,6 +1,6 @@
 ## 🔗 URL Builder
 
-✅ The official URL builder for [skills icons](https://github.com/syvixor/skills-icons).
+✅ The official URL builder for [`skills icons`](https://github.com/syvixor/skills-icons).
 
 ### ✨ Technologies
 
@@ -8,25 +8,27 @@
 
 ### 🚀 Quick Start
 
-- You have to clone the repository
-  ```bash
-  git clone https://github.com/syvixor/url-builder.git
+#### Clone Repo
+  
+```bash
+git clone https://github.com/syvixor/url-builder.git
 
-  cd url-builder
-  ```
+cd url-builder
+```
 
-- Next, install the dependencies
-  ```bash
-  pnpm install # or npm install
-  ```
+#### Install Dependencies
 
-- Finally, run the development server
+```bash
+pnpm install # or npm install
+```
 
-  ```bash
-  pnpm dev # or npm run dev
-  ```
+#### Run Development Server
 
-All good, development server should be running on `localhost:3000`
+```bash
+pnpm dev # or npm run dev
+```
+
+All good, development server should be running on [`localhost:3000`](http://localhost:3000)
 
 ### 📜 License
 
