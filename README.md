@@ -4,7 +4,7 @@
 
 ### ✨ Technologies
 
-![Technologies](https://skills.syvixor.com/api/icons?i=ts,nuxt,eslint,vueuse,motion,tailwind)
+![Technologies](https://skills.syvixor.com/api/icons?i=ts,nuxt,vueuse,motion,tailwind)
 
 ### 🚀 Quick Start
 
