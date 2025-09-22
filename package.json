@@ -12,16 +12,15 @@
         "lint:fix": "eslint . --fix"
     },
     "dependencies": {
-        "motion-v": "^1.7.0",
-        "nuxt": "^4.0.3",
+        "motion-v": "^1.7.1",
+        "nuxt": "^4.1.2",
         "scule": "^1.3.0"
     },
     "devDependencies": {
-        "@iconify-json/lucide": "^1.2.64",
-        "@nuxt/eslint": "^1.9.0",
-        "@nuxt/ui": "^3.3.2",
-        "@vueuse/core": "^13.7.0",
-        "@vueuse/nuxt": "^13.7.0"
+        "@iconify-json/lucide": "^1.2.68",
+        "@nuxt/ui": "^3.3.4",
+        "@vueuse/core": "^13.9.0",
+        "@vueuse/nuxt": "^13.9.0"
     },
     "author": "syvixor",
     "license": "MIT"

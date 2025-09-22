@@ -49,7 +49,7 @@ const isLoading = ref(false);
 const { data: icons } = await useFetch("/api/icons");
 
 const filteredIcons = computed(() => {
-    return icons.value?.filter((icon) => {
+    return icons.value?.filter((icon: any) => {
         const searchLower = searchTerm.value.toLowerCase();
         return (
             icon.id.toLowerCase().includes(searchLower) ||
