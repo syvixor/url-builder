@@ -1,16 +1,6 @@
-interface IIcons {
-    id: string;
-    name: string;
-    url: string;
-}
+export default defineEventHandler(async (event) => {
+    const query = getQuery(event);
 
-interface IResponse {
-    statusCode: number;
-    statusMessage: string;
-    data: IIcons[];
-}
-
-export default defineEventHandler(async () => {
-    const data = await $fetch<IResponse>("https://skills.syvixor.com/api/icons/all");
-    return data.data
-});
+    // Redirect users who have replaced "skills" with "builder" in the icon url to the builder page
+    return sendRedirect(event, `/?perline=${query?.["perline"]}&i=${query?.["i"]}`);
+})
