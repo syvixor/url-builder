@@ -1,27 +1,26 @@
 <script setup lang="ts">
-import { ref } from 'vue'
 import type { IIcons } from "~/types";
 
-const props = defineProps<{
+defineProps<{
     icon: IIcons | undefined;
     selected: boolean;
 }>();
 
 const beingDragged = ref(false);
 
-const mousedown = () => {
+const mouseDown = () => {
     beingDragged.value = true;
 }
 
-const mouseup = () => {
+const mouseUp = () => {
     beingDragged.value = false;
 }
 </script>
 
 <template>
     <div
-        @mousedown="mousedown"
-        @mouseup="mouseup"
+        @mousedown="mouseDown"
+        @mouseup="mouseUp"
         :initial="{ opacity: 0 }"
         :animate="{ opacity: 1 }"
         :transition="{ duration: 0.2 }"
@@ -33,7 +32,6 @@ const mouseup = () => {
 </template>
 
 <style scoped>
-    /* Fade-in icons without messing with sortable/v-motion animations */
     .selected {
         animation-duration: 0.275s;
         animation-name: animate-fade;
