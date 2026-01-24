@@ -1,6 +1,6 @@
 ## 🔗 URL Builder
 
-✅ The official URL builder for [`skills icons`](https://github.com/syvixor/skills-icons).
+Icons URL builder for [`skills icons`](https://github.com/syvixor/skills-icons).
 
 ### ✨ Technologies
 
