@@ -12,17 +12,17 @@
         "lint:fix": "eslint . --fix"
     },
     "dependencies": {
-        "motion-v": "^1.7.4",
-        "nuxt": "^4.2.2",
+        "motion-v": "1.10.3",
+        "nuxt": "^4.4.2",
         "scule": "^1.3.0",
-        "sortablejs": "^1.15.6"
+        "sortablejs": "^1.15.7"
     },
     "devDependencies": {
-        "@iconify-json/lucide": "^1.2.80",
-        "@nuxt/ui": "^4.2.1",
-        "@vueuse/core": "^14.1.0",
-        "@vueuse/integrations": "^14.1.0",
-        "@vueuse/nuxt": "^14.1.0"
+        "@iconify-json/lucide": "^1.2.97",
+        "@nuxt/ui": "^4.5.1",
+        "@vueuse/core": "^14.2.1",
+        "@vueuse/integrations": "^14.2.1",
+        "@vueuse/nuxt": "^14.2.1"
     },
     "author": "syvixor",
     "license": "MIT"
